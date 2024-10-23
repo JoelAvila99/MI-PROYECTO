@@ -21,8 +21,11 @@ li {
 }
 
 /*ESTE ESTILO SE APLICA A navegación*/
-#nav {
-  background-color: #422c2c;
+.navBar {
+  background-color: #4f3030;
+}
+.nav-link {
+  color: #e4dede;
 }
 .navbar-brand img {
   width: 70px;
@@ -64,15 +67,16 @@ li {
 .titulo-banner {
   font-family: "Poppins", sans-serif;
     color: rgba(255, 254, 254, 0.808);
-    text-shadow: 0 0 3px rgb(37, 35, 35);
+    text-shadow: 0 0 2px rgb(37, 35, 35);
     letter-spacing: 2px;
     text-align: center;
     margin: auto;
+    font-weight: 200;
     max-width: 500px;
 }
 
 .titulo-banner h1 {
-  font-weight: 200;
+  font-weight: 100;
   text-shadow: 0 0 3px rgb(37, 35, 35);
 }
 
