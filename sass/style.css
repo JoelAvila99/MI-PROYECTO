@@ -1,0 +1,363 @@
+@charset "UTF-8";
+/*ESTE ESTILO SE APLICA A TODO EL DOC*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  max-width: 1440px;
+  font-family: sans-serif;
+}
+
+li {
+  display: inline-block;
+}
+
+#body {
+  background-color: rgba(89, 63, 63, 0.413);
+  max-width: 100%;
+  height: 100vh;
+}
+
+/*ESTE ESTILO SE APLICA A navegación*/
+.navbar-brand img {
+  width: 20px;
+  border-radius: 50%;
+}
+
+/*ESTE ESTILO SE APLICA A BANNER*/
+.main_banner {
+  width: 100%;
+  height: 70vh;
+  background-image: url(/images/banner.jpg);
+  background-position: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+}
+
+.main_banner-opaco {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6666666667);
+}
+
+.main__banner-picture {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main__banner-picture img {
+  width: 130px;
+  padding-top: 100px;
+  filter: drop-shadow(10px 10px 10px black);
+  margin-bottom: 20px;
+}
+
+.titulo-banner {
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 254, 254, 0.808);
+  text-shadow: 0 0 3px rgb(37, 35, 35);
+  letter-spacing: 1px;
+  text-align: center;
+  margin: auto;
+  max-width: 500px;
+}
+
+.titulo-banner h1 {
+  font-weight: 100;
+  text-shadow: 0 0 3px rgb(37, 35, 35);
+}
+
+.titulo-banner h3 {
+  font-weight: 100;
+  margin-top: 20px;
+  text-shadow: 0 0 3px rgb(37, 35, 35);
+}
+
+/*///////ESTE ESTILO SE APLICA A main/////*/
+#main {
+  width: 100%;
+  background-color: black;
+  background: radial-gradient(rgba(0, 0, 0, 0.413), rgb(65, 31, 31));
+  font-size: 16px;
+}
+
+/*////ESTE ESTILO SE APLICA A incio contenido//////*/
+.inicio__contenido1-h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  padding: 10px;
+  text-align: center;
+  border: 0.1px rgba(0, 0, 0, 0.132) solid;
+  background-color: rgba(134, 56, 56, 0);
+  background: radial-gradient(rgba(3, 3, 3, 0), rgba(0, 0, 0, 0.3607843137));
+  text-shadow: 0 0 1px rgb(255, 253, 253);
+  margin-bottom: 50px;
+  height: auto;
+  color: rgb(255, 255, 250);
+}
+
+.inicio__contenido1 {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 50px;
+  font-family: 14px;
+}
+
+.inicio__contenido1 img {
+  width: 50%;
+  border-radius: 10%;
+}
+
+.inicio__contenido1 h3 {
+  margin: auto;
+  padding: 10px;
+  font-size: 1.3em;
+  max-width: 300px;
+  font-weight: 100;
+  color: rgba(244, 247, 250, 0.767);
+}
+
+.inicio__contenido1-p {
+  color: rgba(244, 247, 250, 0.767);
+  padding: 30px;
+  font-size: 0.9em;
+}
+
+/*ESTE ESTILO SE APLICA A VIDEO SITIO */
+.video_sitio {
+  margin: 40px 0px 40px 20px;
+  box-shadow: 10px 10px 45px rgb(0, 0, 0);
+  width: 90%;
+}
+
+/*//////////ESTE ESTILO SE APLICA A footer////////////////*/
+#footer {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: rgba(255, 253, 253, 0.918);
+  width: 100%;
+  height: auto;
+  background-color: rgb(86, 67, 67);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.footer-novedades {
+  text-align: center;
+}
+
+.footer-novedades-form input, textarea {
+  background-color: transparent;
+  border: none;
+  border: 1px black solid;
+  color: rgba(224, 213, 213, 0.6235294118);
+  width: 100%;
+}
+
+.footer-novedades-form {
+  padding: 5px;
+  max-width: 300px;
+}
+
+.footer-novedades-form fieldset {
+  padding: 10px;
+  border: none;
+  margin: 1px;
+  box-shadow: 0 0 2px rgba(218, 214, 214, 0.662);
+}
+
+.footer-novedades-form h4 {
+  padding: 5px;
+  font-weight: 200;
+  color: #e4dede;
+}
+
+.footer-contacto {
+  text-align: center;
+  font-weight: 200;
+}
+
+.footer-contacto h3 {
+  font-size: 14px;
+  padding-top: 15px;
+  font-weight: 200;
+}
+
+.footer-contacto i {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.footer-redes i {
+  font-size: 16px;
+  margin-left: 10px;
+  display: block;
+  margin: 40px;
+  font-weight: 200;
+}
+
+input::-moz-placeholder {
+  color: rgba(214, 203, 203, 0.568627451);
+}
+
+input::placeholder {
+  color: rgba(214, 203, 203, 0.568627451);
+}
+
+/*ESTE ESTILO APLICA A PAGE MENU*/
+.grid {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  height: auto;
+  text-align: center;
+  font-family: poppins;
+}
+
+.grid img {
+  width: 100%;
+  border-radius: 20%;
+}
+
+.card h1 {
+  background-color: #422c2c;
+  color: white;
+  margin-top: 10px;
+}
+
+/*////////// ESTE ESTILO SE APLICA A PAGE CONTACTANOS/////////////////*/
+/* ESTE ESTILO SE APLICA A FORMULARIO E ICONS REDES*/
+.contact {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+}
+
+.icons_contact {
+  display: inline;
+  margin: auto;
+  color: rgba(255, 255, 255, 0.808);
+  font-weight: 100;
+}
+
+.icons_contact i {
+  display: block;
+  padding: 20px;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.icons_contact h3 {
+  font-size: 14px;
+  font-weight: 100;
+  text-shadow: 0 0 1px rgba(253, 253, 253, 0.281);
+  margin-top: 20px;
+}
+
+.form_contactanos {
+  max-width: 500px;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(0, 0, 0, 0.3607843137);
+  padding: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.954);
+  margin-bottom: 20px;
+  border-radius: 10%;
+  color: rgba(255, 255, 255, 0.808);
+}
+
+.form_contactanos input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  padding: 6px 12px;
+  margin: 20px 0;
+}
+
+.form_contactanos h2 {
+  text-align: center;
+  font-weight: 400;
+  padding: 10px;
+  text-shadow: 0 0 1px rgb(0, 0, 0);
+}
+
+textarea {
+  min-width: 100%;
+  resize: vertical;
+  min-height: 100px;
+  max-height: 150px;
+  margin-top: 20px;
+}
+
+.form_imput {
+  padding: 10px;
+}
+
+/* ESTE ESTILO SE APLICA A PAGE INGRESO*/
+.form_ingreso {
+  max-width: 500px;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(0, 0, 0, 0.3607843137);
+  padding: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.954);
+  margin-bottom: 20px;
+  border-radius: 10%;
+}
+
+.form_ingreso input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  padding: 6px 12px;
+  margin: 20px 0;
+}
+
+.form_ingreso h2 {
+  text-align: center;
+  font-weight: 600;
+  padding: 10px;
+  text-shadow: 0 0 1px rgb(217, 201, 201);
+}
+
+.ingreso {
+  display: flex;
+}
+
+.ingreso img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 0 25px 45px black;
+  margin: auto;
+  margin-left: 20px;
+}
+
+/*////RESPONSIVE/////*/
+@media screen and (max-width: 400px) {
+  .main__banner-picture {
+    height: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
